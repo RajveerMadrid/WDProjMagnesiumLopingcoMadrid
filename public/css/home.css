@@ -1,0 +1,100 @@
+html {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+body:not(div) {  /*temporary*/
+  color: cornsilk;  /*temporary*/
+  background-image: linear-gradient(to bottom left, royalblue, midnightblue);
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+header {
+  text-align: center;
+}
+
+div:not(.navigation) {
+  color: cornsilk;
+  background-color: black;  /*temporary*/
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid cornsilk; /*temporary*/
+}
+
+.settings {
+  float: right;
+  width: 40.5%;
+  height: 50.7vh;
+}
+
+.info {
+  float: left;
+  width: 56.4%;
+  height: 50.7vh;
+  margin-right: 20px;
+}
+
+.homeHeader {
+  margin-top: 85px;
+  background-image: ;
+  padding: 5px;
+}
+
+.navigation {
+  background-color: black;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.navigation img {
+  float:left;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.navigation p {
+  margin-left: 10px;
+  font-size: 20px;
+  float: left;
+  padding: 0;
+  
+}
+
+.navigation a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+
+.navigation a:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+.navigation a.active {
+  background-color: cornsilk;
+  color: black;
+}
+
+footer {
+  font-size: 12px;
+  border: 1px solid cornsilk;
+  margin-right: 0px;
+  padding: 0 5px;
+  background-color: black; 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.clickArea {
+  height: 100vh;
+  width: 100%;
+  cursor: pointer;
+  background: lightgreen;
+  display: grid;
+  place-items: center;
+  font-size: 50px;
+  color: black;
+}
+
+.end {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: cornsilk;
+  color: midnightblue;
+  text-align: center;
+  cursor: pointer;
+}
+
+.end h1 {
+  font-size: 35px;
+}
+
+.RTtext {
+  font-size: 90px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.end .playAgain {
+  border: none;
+  background-color: midnightblue;
+  color: cornsilk;
+  font-size: 30px;
+  padding: 8px 32px;
+  cursor: pointer;
+}
+
+.mainMenu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: midnightblue;
+  color: cornsilk;
+  text-align: center;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.mainMenu h1 {
+  margin: 10px 0;
+  font-size: 85px;
+}
+
+.mainMenu.active,
+.end.active {
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 1000px;
+  padding: 0 40px;
+}
+
+.container p {
+  line-height: 2;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0;
+}
+
+body:not(div) {  /*temporary*/
+  color: cornsilk;  /*temporary*/
+  background-image: linear-gradient(to bottom left, royalblue, midnightblue);
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.navigation {
+  background-color: black;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navigation img {
+  float:left;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.navigation p {
+  margin-left: 10px;
+  font-size: 20px;
+  float: left;
+  padding: 0;
+  
+}
+
+a {
+  text-decoration: none;
+  color: cornsilk;
+}
+
+.navigation a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+
+.navigation a:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+.navigation a.active {
+  background-color: cornsilk;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  color: cornsilk;
+  font-size: 12px;
+  border: 1px solid cornsilk;
+  margin-right: 0px;
+  padding: 0 5px;
+  background-color: black; 
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}

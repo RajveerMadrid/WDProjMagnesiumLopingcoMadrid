@@ -32,12 +32,14 @@ div:not(.navigation) {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .minigameDesc {
   float: right;
   width: 72.0%;
   height: 39.5vh;
+  border-radius: 20px;
 }
 
 .navigation {

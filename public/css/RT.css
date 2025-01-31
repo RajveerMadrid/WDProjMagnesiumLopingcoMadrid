@@ -38,12 +38,14 @@ body {
 
 .end h1 {
   font-size: 35px;
+  user-select: none;
 }
 
 .RTtext {
   font-size: 90px;
   font-weight: 400;
   margin-bottom: 15px;
+  user-select: none;
 }
 
 .end .playAgain {
@@ -53,6 +55,7 @@ body {
   font-size: 30px;
   padding: 8px 32px;
   cursor: pointer;
+  user-select: none;
 }
 
 .mainMenu {
@@ -72,6 +75,7 @@ body {
 .mainMenu h1 {
   margin: 10px 0;
   font-size: 85px;
+  user-select: none;
 }
 
 .mainMenu.active,
@@ -90,6 +94,11 @@ body {
   font-weight: 500;
   font-size: 30px;
   margin: 0;
+  user-select: none;
+}
+
+.alert {
+  user-select: none;
 }
 
 body:not(div) {  /*temporary*/
@@ -166,4 +175,5 @@ footer {
   position: fixed;
   bottom: 0;
   text-align: center;
+  letter-spacing: 1px;
 }

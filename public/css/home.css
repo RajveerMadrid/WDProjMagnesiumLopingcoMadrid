@@ -27,6 +27,7 @@ div:not(.navigation) {
   float: right;
   width: 40.5%;
   height: 50.7vh;
+  border-radius: 15px;
 }
 
 .info {
@@ -34,12 +35,14 @@ div:not(.navigation) {
   width: 56.4%;
   height: 50.7vh;
   margin-right: 20px;
+  border-radius: 15px;
 }
 
 .homeHeader {
   margin-top: 85px;
   background-image: ;
   padding: 5px;
+  border-radius: 15px;
 }
 
 .navigation {

@@ -17,6 +17,7 @@ header {
 }
 
 img {
+  border-radius: 15px;
   width: 333px;
   height: 475px;
   margin: 5px;
@@ -35,6 +36,7 @@ img {
   border: 1px solid cornsilk; /*temporary*/
   overflow: auto;
   margin: auto;
+  border-radius: 5px;
 }
 
 .container {

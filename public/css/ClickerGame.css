@@ -76,17 +76,31 @@
 
   .miniupgradeImg {
     width: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .smallupgradeImg {
     width: 27px;
-    margin-left: 6px;
+    margin-left: 16px;
   }
 
   .mediumupgradeImg {
     width: 34px;
-    margin-left: 2px;
+    margin-left: 12px;
+  }
+
+  .bigupgradeImg {
+    width: 41px;
+    margin-left: 8px;
+  }
+
+  .largeupgradeImg {
+    width: 48px;
+    margin-left: 4px;
+  }
+
+  .giantupgradeImg {
+    width: 55px;
   }
 
   .buttonImg {
@@ -138,7 +152,7 @@
   }
   
   .navigation a:hover {
-    background-color: lightgreen;
+    background-color: lightblue;
     color: black;
   }
   

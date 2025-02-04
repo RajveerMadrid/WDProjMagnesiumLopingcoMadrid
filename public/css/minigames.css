@@ -79,7 +79,7 @@ div:not(.navigation) {
 }
 
 .navigation a:hover {
-  background-color: lightgreen;
+  background-color: lightblue;
   color: black;
 }
 

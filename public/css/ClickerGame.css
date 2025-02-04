@@ -11,7 +11,7 @@
   body:not(div) {  /*temporary*/
     display: grid;
     place-items: center;
-    height: 95vh;
+    height: 105vh;
     margin: 0;
     padding: 0;
     user-select: none;
@@ -42,7 +42,7 @@
 
   .buttonImage:active {
     opacity: 0.8;
-    transform: scale(1.03);
+    transform: scale(1.05);
   }
 
   .upgrade {
@@ -74,8 +74,19 @@
     gap: 5px;
   }
 
-  .upgradeImg {
-    width: 55px;
+  .miniupgradeImg {
+    width: 20px;
+    margin-left: 10px;
+  }
+
+  .smallupgradeImg {
+    width: 27px;
+    margin-left: 6px;
+  }
+
+  .mediumupgradeImg {
+    width: 34px;
+    margin-left: 2px;
   }
 
   .buttonImg {

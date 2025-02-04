@@ -124,6 +124,6 @@ function buyGiantAuto() {
 }
 
 setInterval(() => {
-    parsedButton += creditsPerSecond/20;
+    parsedButton += creditsPerSecond/100;
     button.innerHTML = Math.round(parsedButton);
-},50)
+},1)

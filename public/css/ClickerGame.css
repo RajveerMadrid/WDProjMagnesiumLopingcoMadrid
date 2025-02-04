@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+  }
+  
+  body:not(div) {  /*temporary*/
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+
+    color: midnightblue;  /*temporary*/
+    background-image: linear-gradient(to bottom left, cornsilk, rgb(255, 239, 149));
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  }
+
+  .main {
+    display: flex;
+    gap: 200px;
+  }
+
+  .left h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .buttonImage {
+    width: 300px;
+  }
+
+  .buttonImage:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  .buttonImage:active {
+    opacity: 0.8;
+    transform: scale(1.03);
+  }
+
+  .upgradeImg {
+    width: 55px;
+  }
+
+  .buttonImg {
+    width: 20px;
+  }
+
+  .navigation {
+    color: cornsilk;
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .navigation img {
+    float:left;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .navigation p {
+    margin-left: 10px;
+    font-size: 20px;
+    float: left;
+    padding: 0;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: cornsilk;
+  }
+  
+  .navigation a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    font-size: 18px;
+    text-decoration: none;
+    
+  }
+  
+  .navigation a:hover {
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .navigation a.active {
+    background-color: cornsilk;
+    color: black;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    color: cornsilk;
+    font-size: 12px;
+    border: 1px solid cornsilk;
+    margin-right: 0px;
+    padding: 0 5px;
+    background-color: black; 
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  

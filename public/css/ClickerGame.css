@@ -54,6 +54,8 @@
     border: 2px midnightblue solid;
     padding: 10px 20px;
     border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
   }
 
   .midSection h4 {
@@ -153,3 +155,21 @@
     letter-spacing: 1px;
   }
   
+  .nextLevelInfo {
+    position: absolute;
+    right: -98px;
+    height: 60px;
+    width: 100px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    border: 2px midnightblue solid;
+    display: none;
+  }
+
+  .nextLevelInfo p {
+    margin-top: 10px;
+  }
+
+  .upgrade:hover .nextLevelInfo {
+    display: block;
+  }

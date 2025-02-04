@@ -1,4 +1,4 @@
-let button = document.querySelector(".gemCost");
+let button = document.querySelector(".buttonCost");
 let parsedButton = parseFloat(button.innerHTML);
 
 let clickerCost = document.querySelector(".clickerCost");

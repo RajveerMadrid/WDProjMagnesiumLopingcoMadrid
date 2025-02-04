@@ -147,25 +147,6 @@
     color: black;
   }
   
-  .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  footer {
-    color: cornsilk;
-    font-size: 12px;
-    border: 1px solid cornsilk;
-    margin-right: 0px;
-    padding: 0 5px;
-    background-color: black; 
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-  
   .nextLevelInfo {
     position: absolute;
     right: -98px;
@@ -183,4 +164,8 @@
 
   .upgrade:hover .nextLevelInfo {
     display: block;
+  }
+
+  .footer {
+    width: 100%;
   }

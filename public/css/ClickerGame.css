@@ -38,6 +38,7 @@
     animation:spin 10s linear infinite;
   }
 
+  /*Spinning Button!*/
   @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
   }

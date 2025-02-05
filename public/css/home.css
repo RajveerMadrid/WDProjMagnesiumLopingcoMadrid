@@ -15,8 +15,8 @@ header {
 }
 
 div:not(.navigation) {
+  background-image: linear-gradient(to bottom, rgb(30, 30, 30), black);
   color: cornsilk;
-  background-color: black;  /*temporary*/
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
@@ -26,16 +26,28 @@ div:not(.navigation) {
 .settings {
   float: right;
   width: 40.5%;
-  height: 50.7vh;
+  height: 50vh;
   border-radius: 15px;
 }
 
 .info {
   float: left;
   width: 56.4%;
-  height: 50.7vh;
+  height: 50vh;
   margin-right: 20px;
   border-radius: 15px;
+}
+
+.info p {
+  margin-top: 10px; 
+  font-size: 20px; 
+  margin-left: 10px;
+}
+
+ul, li {
+  margin-top: 10px; 
+  font-size: 20px; 
+  margin-left: 10px;
 }
 
 .homeHeader {
@@ -46,7 +58,7 @@ div:not(.navigation) {
 }
 
 .navigation {
-  background-color: black;
+  background-image: linear-gradient(to top, rgb(15, 15, 15), black);
   overflow: hidden;
   top: 0;
   left: 0;
@@ -82,7 +94,7 @@ div:not(.navigation) {
 }
 
 .navigation a:hover {
-  background-color: lightblue;
+  background-image: linear-gradient(to top, lightblue, royalblue);
   color: black;
 }
 

@@ -52,13 +52,12 @@
   }
 
   .buttonImage:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     cursor: pointer;
   }
 
   .buttonImage:active {
-    opacity: 0.8;
-    transform: scale(1.05);
+    opacity: 0.7;
   }
 
   .upgrade {
@@ -125,15 +124,13 @@
   }
 
   .navigation {
-    color: cornsilk;
-    background-color: black;
+    background-image: linear-gradient(to top, rgb(15, 15, 15), black);
     overflow: hidden;
     top: 0;
     left: 0;
     right: 0;
     position: fixed;
     width: 100%;
-    z-index: 100;
   }
   
   .navigation img {
@@ -152,11 +149,6 @@
     
   }
   
-  a {
-    text-decoration: none;
-    color: cornsilk;
-  }
-  
   .navigation a {
     float: right;
     color: white;
@@ -168,7 +160,7 @@
   }
   
   .navigation a:hover {
-    background-color: lightblue;
+    background-image: linear-gradient(to top, lightblue, royalblue);
     color: black;
   }
   
@@ -197,5 +189,20 @@
   }
 
   .footer {
-    width: 100%;
+    place-self: center;
+    background-color: black;
+    border: 2px solid midnightblue;
+    width: 50%;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2px 4px;
+    color: white;
+    font-size: 12px;
   }

@@ -12,7 +12,7 @@ const stuff = () => {
 stuff()
 
 const startTest = () => {
-    clickArea.style.backgroundColor = "yellow";
+    clickArea.style.backgroundColor = "cornsilk";
 }
 
 mainMenu.addEventListener("click", () => {

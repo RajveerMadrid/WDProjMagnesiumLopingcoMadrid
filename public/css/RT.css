@@ -108,14 +108,13 @@ body:not(div) {  /*temporary*/
 }
 
 .navigation {
-  background-color: black;
+  background-image: linear-gradient(to top, rgb(15, 15, 15), black);
   overflow: hidden;
   top: 0;
   left: 0;
   right: 0;
   position: fixed;
   width: 100%;
-  z-index: 100;
 }
 
 .navigation img {
@@ -134,11 +133,6 @@ body:not(div) {  /*temporary*/
   
 }
 
-a {
-  text-decoration: none;
-  color: cornsilk;
-}
-
 .navigation a {
   float: right;
   color: white;
@@ -150,7 +144,7 @@ a {
 }
 
 .navigation a:hover {
-  background-color: lightblue;
+  background-image: linear-gradient(to top, lightblue, royalblue);
   color: black;
 }
 

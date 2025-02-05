@@ -18,18 +18,18 @@ header {
 
 img {
   border-radius: 15px;
-  width: 333px;
-  height: 475px;
+  width: 275px;
+  height: 390px;
   margin: 5px;
   float: left;
   margin-top: 0;
 }
 
 .Creators {
-  width: 70%;
-  height: 70vh;
+  width: 80%;
+  height: 72.5vh;
   color: cornsilk;
-  background-image: linear-gradient(to bottom, rgb(30, 30, 30), black);
+  background-image: linear-gradient(to bottom, rgb(10, 10, 10), black);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
@@ -40,7 +40,7 @@ img {
 }
 
 .container {
-  height: 480px;
+  height: 400px;
   width: 100%;
 }
 

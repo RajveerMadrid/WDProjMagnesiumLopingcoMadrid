@@ -32,6 +32,7 @@
   }
   
   .buttonImage {
+    border-radius: 50%;
     width: 300px;
     -webkit-animation:spin 10s linear infinite;
     -moz-animation:spin 10s linear infinite;

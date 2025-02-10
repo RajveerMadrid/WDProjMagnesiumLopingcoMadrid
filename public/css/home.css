@@ -8,6 +8,7 @@ body:not(div) {  /*temporary*/
   color: cornsilk;  /*temporary*/
   background-image: linear-gradient(to bottom left, royalblue, midnightblue);
   font-family: 'Times New Roman', Times, serif;
+}
 
 header {
   text-align: center;
@@ -16,9 +17,9 @@ header {
 div:not(.navigation) {
   background-image: linear-gradient(to bottom, rgb(30, 30, 30), black);
   color: cornsilk;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
+  margin-left: 0.55%;
+  margin-right: 0.55%;
+  margin-bottom: 1.1%;
   border: 1px solid cornsilk; /*temporary*/
 }
 
@@ -33,24 +34,24 @@ div:not(.navigation) {
   float: left;
   width: 56.4%;
   height: 50vh;
-  margin-right: 20px;
+  margin-right: 1.1%;
   border-radius: 15px;
 }
 
 .info p {
-  margin-top: 10px; 
+  margin-top: 0.55%; 
   font-size: 20px; 
-  margin-left: 10px;
+  margin-left: 0.55%;
 }
 
 ul, li {
-  margin-top: 10px; 
+  margin-top: 0.55%; 
   font-size: 20px; 
-  margin-left: 10px;
+  margin-left: 0.55%;
 }
 
 .homeHeader {
-  margin-top: 85px;
+  margin-top: 5%;
   /*background-image: ;*/
   padding: 5px;
   border-radius: 15px;
@@ -68,28 +69,29 @@ ul, li {
 
 .navigation img {
   float:left;
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
-  margin-top: 5px;
+  width: 2.9%;
+  height: 2.9%;
+  margin-left: 0.8%;
+  margin-top: 0.275%;
 }
 
 .navigation p {
-  margin-left: 10px;
-  font-size: 20px;
+  margin-left: 0.55%;
+  font-size: 25px;
   float: left;
   padding: 0;
-  
+  margin-bottom: 10px;
+  margin-top: 13px;
+  margin-left: 15px;
 }
 
 .navigation a {
   float: right;
   color: white;
   text-align: center;
-  padding: 20px 22px;
-  font-size: 18px;
+  padding: 1.1% 1.21%;
+  font-size: 20px;
   text-decoration: none;
-  
 }
 
 .navigation a:hover {
@@ -106,7 +108,7 @@ footer {
   font-size: 12px;
   border: 1px solid cornsilk;
   margin-right: 0px;
-  padding: 0 5px;
+  padding: 0 0.275%;
   background-color: black; 
   position: fixed;
   right: 0;

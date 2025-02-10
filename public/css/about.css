@@ -20,23 +20,23 @@ img {
   border-radius: 15px;
   width: 275px;
   height: 390px;
-  margin: 5px;
+  margin: 10px;
+  margin-left: 10px;
   float: left;
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .Creators {
-  width: 80%;
-  height: 72.5vh;
+  width: 75%;
+  height: 118vh;
   color: cornsilk;
   background-image: linear-gradient(to bottom, rgb(10, 10, 10), black);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
   border: 1px solid cornsilk; /*temporary*/
-  overflow: auto;
   margin: auto;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .container {
@@ -47,6 +47,7 @@ img {
 .text {
   font-size: 25px;
   line-height: 1.6;
+  margin-right: 20px;
 }
 
 .navigation {
@@ -61,28 +62,31 @@ img {
 
 .navigation img {
   float:left;
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
-  margin-top: 5px;
+  width: 2.9%;
+  height: 2.9%;
+  margin-left: 0.8%;
+  margin-top: 0.275%;
+  margin-bottom: 8px;
 }
 
 .navigation p {
-  margin-left: 10px;
-  font-size: 20px;
+  margin-left: 0.55%;
+  font-size: 25px;
   float: left;
   padding: 0;
-  
+  margin-bottom: 10px;
+  margin-top: 13px;
+  margin-bottom: 0px;
+  margin-left: 5px;
 }
 
 .navigation a {
   float: right;
   color: white;
   text-align: center;
-  padding: 20px 22px;
-  font-size: 18px;
+  padding: 1.1% 1.21%;
+  font-size: 20px;
   text-decoration: none;
-  
 }
 
 .navigation a:hover {

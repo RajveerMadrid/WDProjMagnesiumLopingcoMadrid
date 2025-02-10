@@ -115,6 +115,7 @@ body:not(div) {  /*temporary*/
   right: 0;
   position: fixed;
   width: 100%;
+  z-index: 100000;
 }
 
 .navigation img {

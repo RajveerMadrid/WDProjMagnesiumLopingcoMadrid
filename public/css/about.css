@@ -8,7 +8,7 @@ body:not(div) {  /*temporary*/
   color: cornsilk;  /*temporary*/
   background-image: linear-gradient(to bottom left, royalblue, midnightblue);
   background-repeat: no-repeat;
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header {

@@ -7,7 +7,7 @@ html {
 body:not(div) {  /*temporary*/
   color: cornsilk;  /*temporary*/
   background-image: linear-gradient(to bottom left, royalblue, midnightblue);
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header {

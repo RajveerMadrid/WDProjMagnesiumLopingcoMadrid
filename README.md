@@ -4,8 +4,8 @@ Firstly, we plan to add our last two originally planned applications/minigames. 
 
 Next, to incorporate the use of persistent data, we plan to add user accounts. We will try to allow users to save their previous high scores in their games. If possible, it may also add leaderboards to the game. Here are some examples in JSON format:
 
-Type of Data: User Account Login
-Purpose: Allows for the creation of an account to save scores
+Type of Data: User Account Login\
+Purpose: Allows for the creation of an account to save scores\
 Structure in JSON format:
 ```javascript
 account {
@@ -15,8 +15,8 @@ account {
 }
 ```
 
-Type of Data: User Scores
-Purpose: Allows for the storing/saving of scores (Leaderboard)
+Type of Data: User Scores\
+Purpose: Allows for the storing/saving of scores (Leaderboard)\
 Structure in JSON format:
 ```javascript
 scores {

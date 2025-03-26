@@ -12,6 +12,7 @@ account {
     username: text-string,
     password: text-string,
     email: email-formatted-text-string,
+    birthday: date
 }
 ```
 
@@ -23,7 +24,7 @@ scores {
     CPS: number,
     RT: number,
     Clicker: number,
-    TC: number,
+    TC: number
 }
 ```
 

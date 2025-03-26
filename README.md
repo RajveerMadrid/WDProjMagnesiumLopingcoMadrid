@@ -5,13 +5,10 @@ Firstly, we plan to add our last two originally planned applications/minigames. 
 Next, to incorporate the use of persistent data, we plan to add user accounts. We will try to allow users to save their previous high scores in their games. If possible, it may also add leaderboards to the game. Here are some examples in JSON format:
 
 Type of Data: User Account Login
-
 Purpose: Allows for the creation of an account to save scores
-
 Structure in JSON format:
 ```javascript
 account {
-    name: text-string,
     username: text-string,
     password: text-string,
     email: email-formatted-text-string,
@@ -19,9 +16,7 @@ account {
 ```
 
 Type of Data: User Scores
-
 Purpose: Allows for the storing/saving of scores (Leaderboard)
-
 Structure in JSON format:
 ```javascript
 scores {
@@ -36,6 +31,9 @@ Here is the wireframe for the account login:
 ![image](public/images/SignUp_Wireframe.png)
 
 A save button will be added in applications and minigames in order to save the average score. It would notify the user if the saved score is higher than the current score, in which case it would ask the user if they are certain they'd like to save their current score.
+
+
+
 
 # 🖱️✨ Title: Click Civilization ✨🖱️
 

@@ -17,8 +17,8 @@ header {
 div:not(.navigation) {
   background-image: linear-gradient(to bottom, rgb(30, 30, 30), black);
   color: cornsilk;
-  margin-left: 0.55%;
-  margin-right: 0.55%;
+  margin-left: 0.7%;
+  margin-right: 0.7%;
   margin-bottom: 1.1%;
   border: 1px solid cornsilk; /*temporary*/
 }
@@ -26,15 +26,14 @@ div:not(.navigation) {
 .settings {
   float: right;
   width: 40.5%;
-  height: 50vh;
+  height: 47.5vh;
   border-radius: 15px;
 }
 
 .info {
   float: left;
   width: 56.4%;
-  height: 50vh;
-  margin-right: 1.1%;
+  height: 47.5vh;
   border-radius: 15px;
 }
 
@@ -51,7 +50,7 @@ ul, li {
 }
 
 .homeHeader {
-  margin-top: 5%;
+  margin-top: 4.5%;
   /*background-image: ;*/
   padding: 5px;
   border-radius: 15px;
@@ -114,3 +113,6 @@ footer {
   right: 0;
   bottom: 0;
 }
+
+
+

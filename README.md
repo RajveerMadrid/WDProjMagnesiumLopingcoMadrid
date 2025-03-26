@@ -1,3 +1,33 @@
+### UPDATE PLAN:
+
+Firstly, we plan to add our last two originally planned applications/minigames. These would be the target clicking minigame and the CPS test application. Other things that would hopefully be added in this update are background music, customizable settings, and a better design overall.
+
+Next, to incorporate the use of persistent data, we plan to add user accounts. We will try to allow users to save their previous high scores in their games. If possible, it may also add leaderboards to the game. Here are some examples in JSON format:
+
+Type of Data: User Account Login
+Purpose: Allows for the creation of an account to save scores
+```javascript
+account {
+    name: text-string,
+    username: text-string,
+    password: text-string,
+    email: email-formatted-text-string,
+}
+```
+
+Type of Data: User Scores
+Purpose: Allows for the storing/saving of scores (Leaderboard)
+```javascript
+scores {
+    CPS: number,
+    RT: number,
+    Clicker: number,
+    TC: number,
+}
+```
+
+
+
 # 🖱️✨ Title: Click Civilization ✨🖱️
 
 ### Description:

@@ -15,6 +15,7 @@ account {
     birthday: date
 }
 ```
+Users can edit their username when they access their account. They may also opt to delete their account. This will follow the process of the 2nd-graded requirement for the 4th quarter.
 
 Type of Data: User Scores\
 Purpose: Allows for the storing/saving of scores (Leaderboard)\
@@ -31,7 +32,9 @@ scores {
 Here is the wireframe for the account login:
 ![image](public/images/SignUp_Wireframe.png)
 
-A save button will be added in applications and minigames in order to save the average score. It would notify the user if the saved score is higher than the current score, in which case it would ask the user if they are certain they'd like to save their current score.
+A save button will be added in applications and minigames in order to save the average score. It would notify the user if the saved score is higher than the current score, in which case it would ask the user if they are certain they'd like to save their current score. This will be used in displaying the leaderboard.
+
+These will be saved in accounts.json and scores.json files.
 
 
 
